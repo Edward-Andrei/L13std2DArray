@@ -12,5 +12,6 @@ int main() {
 
 	fillArray(array, rows, columns);
 	printArray(array, rows, columns);
+	cout << findMax(array, rows, columns);
 	return 0;
 }
